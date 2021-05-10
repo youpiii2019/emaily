@@ -5,7 +5,7 @@ const app = express();
 
 // route handlers
 app.get('/', (req, res) => {
-    res.send({ hi: 'there '});
+    res.send({ bye: 'bye '});
 });
 
 // listener
